@@ -84,6 +84,19 @@ A full-stack **serverless** web application that allows users to create, update,
 
 **Note:** Node.js 22.x or later with npm is required to deploy the application. Ensure the AWS CLI is configured (`aws configure`) with credentials that have sufficient permissions to create resources on **AWS Amplify**.
 
+## How to Use
+1. **Deploy the infrastructure** using AWS Amplify.
+
+2. **Select the Create Account Tab** and enter values in the **Username**, **Password**, and **Confirm password** fields. Click **Create Account**.
+
+3. **Enter the verification code** provided via email. Click **Confirm** to login.
+
+4. **Enter a Bucket List Item and Description**. Click **Choose File** and select an image to upload. Click **Add to Bucket List** to upload the image.
+
+5. **Images will appear under My Bucket List Items**. Click **Delete Item** to delete an image.
+
+6. **Sign out of the application** using the **Sign Out** button.
+
 ## Project Structure
 ```plaintext
 aws-bucket-list-tracker/
@@ -103,20 +116,6 @@ aws-bucket-list-tracker/
 ![Bucket List Tracker UI](assets/application-screenshot.png)
 
 *Figure 2: Bucket List Tracker Application UI.*  
-
-## How to Use
-
-1. **Deploy the infrastructure** using AWS Amplify.
-
-2. **Select the Create Account Tab** and enter values in the **Username**, **Password**, and **Confirm password** fields. Click **Create Account**.
-
-3. **Enter the verification code** provided via email. Click **Confirm** to login.
-
-4. **Enter a Bucket List Item and Description**. Click **Choose File** and select an image to upload. Click **Add to Bucket List** to upload the image.
-
-5. **Images will appear under My Bucket List Items**. Click **Delete Item** to delete an image.
-
-6. **Sign out of the application** using the **Sign Out** button.
 
 ## Future Enhancements
 - **Enhanced UI/UX** with a more polished design and accessibility features.
