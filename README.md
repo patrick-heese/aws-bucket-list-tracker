@@ -4,7 +4,6 @@ A full-stack **serverless** web application that allows users to create, update,
 ## Architecture Overview
 ![Architecture Diagram](assets/architecture-diagram.png)  
 *Figure 1: Architecture diagram of the Bucket List Tracker application hosted on AWS Amplify.*
-
 - **Amazon S3** – Underlying storage for hosting the React frontend via Amplify.
 - **Amplify Hosting** - Hosts the React frontend and automatically redeploys on GitHub commits.
 - **Amplify Authentication** - Provides secure user login/signup functionality.
@@ -25,7 +24,7 @@ A full-stack **serverless** web application that allows users to create, update,
 - **CI/CD Workflow** – Automatic deployment from GitHub commits to Amplify Hosting.  
 
 ## Tech Stack
-- **Languages:** JavaScript (React 19.1), GraphQL 
+- **Languages:** JavaScript (React 19.1), Node.js 22.18
 - **AWS Services:** Amplify Hosting, Amplify Auth, AppSync, DynamoDB
 - **IaC Tool:** *(Amplify auto-generated configuration - no additional SAM/Terraform used)* 
 - **Other Tools:** GitHub, Amplify CLI/Studio 
