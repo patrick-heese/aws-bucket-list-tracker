@@ -25,7 +25,7 @@ A full-stack **serverless** web application that allows users to create, update,
 - **CI/CD Workflow** – Automatic deployment from GitHub commits to Amplify Hosting.  
 
 ## Tech Stack
-- **Languages:** JavaScript (React), GraphQL 
+- **Languages:** JavaScript (React 19.1), GraphQL 
 - **AWS Services:** Amplify Hosting, Amplify Auth, AppSync, DynamoDB
 - **IaC Tool:** *(Amplify auto-generated configuration - no additional SAM/Terraform used)* 
 - **Other Tools:** GitHub, Amplify CLI/Studio 
