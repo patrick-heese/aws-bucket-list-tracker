@@ -99,13 +99,13 @@ A full-stack **serverless** web application that allows users to create, update,
 ## Project Structure
 ```plaintext
 aws-bucket-list-tracker/
-├── assets/                         # Images, diagrams, screenshots
-│   ├── architecture-diagram.png    # Project architecture
-│   └── application-screenshot.png  # UI screenshot
-├── bucketlistapp/                  # React app with Amplify configuration
-│   ├── src/                        # Application source code
-│   ├── amplify/                    # Amplify backend configs
-│   └── package.json                # Project dependencies
+├── assets/                         	 # Images, diagrams, screenshots
+│   ├── architecture-diagram.png         # Project architecture
+│   └── application-screenshot.png       # UI screenshot
+├── bucketlistapp/                       # React app with Amplify configuration
+│   ├── src/                             # Application source code
+│   ├── amplify/                         # Amplify backend configs
+│   └── package.json                     # Project dependencies
 ├── LICENSE
 ├── README.md
 └── .gitignore
@@ -135,6 +135,6 @@ Cloud Administrator | Aspiring Cloud Engineer/Architect
 
 ## Acknowledgments
 This project was inspired by a course from [techwithlucy](https://github.com/techwithlucy).  
-The bucketlistapp configuration is taken directly from the author's original implementation.  
+The Bucket List Application configuration is taken directly from the author's original implementation.  
 The architecture diagram included here is my own version, adapted from the original course diagram.  
 I designed and developed all project documentation. Amplify automatically generated the backend configuration for this application.  
